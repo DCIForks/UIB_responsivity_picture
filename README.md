@@ -11,3 +11,7 @@
 6. Create a default layout for a device in portrait mode. The picture should be above the text. The text and the picture should fit the available width.
 7. Provide a CSS @media rule for `orientation: landscape`. Use a row layout, with the text and the picture each taking half of the page width. Place the picture to the right of the text.
 8. Test using the Device Toolbar in Google Chrome's Elements Inspector
+
+![portrait](mockup/portrait.jpg)
+
+![landscape](mockup/landscape.jpg)
