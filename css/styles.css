@@ -55,4 +55,5 @@ img {
           srcset="img/clockwork_500.jpg"
           media="(min-width: 361px)"
         />
+        
         <source srcset="img/clockwork_250.jpg" />
