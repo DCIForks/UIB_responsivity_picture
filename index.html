@@ -9,7 +9,28 @@
   </head>
   <body>
     <main>
-      <picture>
+      <picture><source
+          srcset="img/clockwork_1000.webp"
+          media="(min-width: 1200px), (min-height: 1200px)"
+          type="image/webp"
+        />
+
+        <source
+          srcset="img/clockwork_1000.jpg"
+          media="(min-width: 1200px), (min-height: 1200px)"
+        />
+
+        <source
+          srcset="img/clockwork_1000.jpg"
+          media="(min-width: 768px), (min-height: 768px)"
+        />
+
+        <source
+          srcset="img/clockwork_500.jpg"
+          media="(min-width: 360px), (min-height: 360px)"
+        />
+
+        <source srcset="img/clockwork_250.jpg" />
 
         <img src="img/clockwork_600_BW.jpg" alt="clockwork" />
       </picture>
